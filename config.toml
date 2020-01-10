@@ -1,0 +1,40 @@
+baseurl = "https://erin.rbind.io"
+languageCode = "en-us"
+title = "Erin's website"
+theme = "hugo-lithium"
+enableEmoji = true
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/erin-d"
+
+
+[params]
+    name = "Erin Dahl"
+    description = "Personal Website of Erin Dahl."
+    role = "OHSU Intern, Department of Medical Informatics and Clinical Epidemiology"
+    organization = "Oregon Health & Science University (OHSU)"
+    organization_url = "http://www.ohsu.edu/xd/"
+    
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "BlankProfile.ico"
+
+    [params.logo]
+    url = "BlankProfile.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
